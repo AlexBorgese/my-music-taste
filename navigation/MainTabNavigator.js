@@ -5,20 +5,20 @@ import { TabNavigator, TabBarBottom } from 'react-navigation';
 
 import Colors from '../constants/Colors';
 
-import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import TopArtists from '../screens/TopArtists';
+import TopSongs from '../screens/TopSongs';
+import UserProfile from '../screens/UserProfile';
 
 export default TabNavigator(
   {
-    Home: {
-      screen: HomeScreen,
+    TopArtistsPage: {
+      screen: TopArtists,
     },
-    Links: {
-      screen: LinksScreen,
+    TopSongsPage: {
+      screen: TopSongs,
     },
-    Settings: {
-      screen: SettingsScreen,
+    UserProfilePage: {
+      screen: UserProfile,
     },
   },
   {
